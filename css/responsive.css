@@ -44,4 +44,8 @@
     .featured-content p {
         font-size: 16px;
     }
+
+    .banner-section-img {
+        height: 500px;
+    }
 }
