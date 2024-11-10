@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Host Grotesk", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.scrolled-50 header {
+    background: #fff;
+}
+
+.banner-section {
+    background: url(../images/banner.jpg) no-repeat center center / cover;
+    height: 1080px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 50px;
+}
+
+.banner-section-img {
+    background: url(../images/rose.jpg) no-repeat center center / cover;
+    height: 800px;
+    padding-bottom: 50px;
+}
+
+.two-img-section {
+    padding: 1.5rem 0;
+}
+
+.two-img {
+    position: relative;
+    padding-top: 100%;
+    padding-bottom: 50px;
+}
+
+.two-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.explore-content {
+    position: sticky;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.explore-content h4 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.explore-content a {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.logo a {
+    font-size: 150px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: "PT Serif", serif;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 40px;
+    line-height: 300px;
+    text-transform: uppercase;
+}
+
+.scrolled-50 .logo a {
+    font-size: 50px;
+    color: #000;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+
+.header-right-menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.header-right-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-right-menu ul li button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.scrolled-50 .header-right-menu ul li button {
+    color: #000;
+}
+
+.scrolled-50 .header-right-menu ul li svg {
+    fill: #000;
+}
+
+.scrolled-50 .header-right-menu ul li svg path {
+    fill: #000;
+}
+
+.header-inner {
+    position: relative;
+}
+
+.banner-section-02 .explore-content {
+    position: unset;
+}
+
+.featured-section {
+    padding: 100px 0;
+}
+
+.featured-section h3 {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.featured-content {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.featured-content h4 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.featured-content p {
+    font-size: 18px;
+    max-width: 420px;
+    margin: 0 auto 30px;
+}
+
+.read-more-link a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+}
